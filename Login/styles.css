@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    text-align: center;
+    background-color: rgb(121, 127, 209);
+    color: black
+}
+p::first-letter{
+    color:rgb(0, 0, 0);
+}
+p::selection{
+    background-color: rgb(121, 127, 209);
+}
+button, input:focus{
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(156, 182, 240);
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 20px;
+    border-bottom: rgb(0, 0, 0);
+}
