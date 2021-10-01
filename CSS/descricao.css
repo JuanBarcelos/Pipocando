@@ -1,0 +1,13 @@
+.banner-description{
+    background: url('../IMG/filme-vingador.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 89.8vh;
+    opacity: 69%;
+  }
+.div-description{
+  width: 100%;
+  height: 100%;
+}

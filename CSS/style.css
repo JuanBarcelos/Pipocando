@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    border-radius: 50%;
+    height: 2.5rem;
+}
+.nav-color{
+    background-color: #fafafa;
+}
+.nav-hover:hover{
+    transition: 0.5s;
+    transform: translate(3px);
+    font-weight: bold;
+}
+.banner{
+    background: url('../IMG/fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 89.6vh;
+    opacity: 69%;
+}
+.section-card{
+    height: 130vh;
+    text-align: center;
+}
+.div-card{
+    width: 18rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    transition: 0.5s;
+}
+.div-card:hover{
+    transform: scale(106%);
+}
+.img-card{
+    height: 160px;
+}
+.card-titlel{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Girassol', cursive;
+    font-size: 60px;
+}
+#sobre{
+    margin-top: 40px;
+    height: 100vh;
+
+    background-color: rgb(233,232,239);
+}
+#contato{
+    margin-top: 40px;
+    height: 100vh;
+}
+.contato-card{
+    width: 80%
+}
+
+.btn-img{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 768px) { 
+    .section-card{
+        height: 100%;
+        text-align: center;
+    }
+    .div-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
